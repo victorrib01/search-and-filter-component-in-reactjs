@@ -10,8 +10,6 @@ function App() {
 
   const handleSearch = ({ target }) => {
     setSearch(target.value);
-    console.log(target.value);
-    console.log(search);
     if (!target.value) {
       setItems(initialList);
       return;
